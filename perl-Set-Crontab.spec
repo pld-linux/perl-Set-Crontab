@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	Crontab
-Summary:	Set::Crontab - Expand crontab(5)-style integer lists
+Summary:	Set::Crontab - expand crontab(5)-style integer lists
 Summary(pl):	Set::Crontab - rozszerzanie list liczb w notacji crontab(5)
 Name:		perl-Set-Crontab
 Version:	1.00
