@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Set
-%define	pnam	Crontab
+%define		pdir	Set
+%define		pnam	Crontab
 Summary:	Set::Crontab - expand crontab(5)-style integer lists
 Summary(pl):	Set::Crontab - rozszerzanie list liczb w notacji crontab(5)
 Name:		perl-Set-Crontab
