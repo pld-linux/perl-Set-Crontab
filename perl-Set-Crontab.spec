@@ -10,7 +10,7 @@ Summary(pl):	Set::Crontab - rozszerzanie list liczb w notacji crontab(5)
 Name:		perl-Set-Crontab
 Version:	1.00
 Release:	1
-License:	(enter GPL/LGPL/BSD/BSD-like/Artistic/other license name here)
+License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e2895d83550a16cb54570a1ce0090e67
@@ -33,7 +33,6 @@ definiuje kilka u¿ytecznych funkcji u³atwiaj±cych obs³ugê ich.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
