@@ -6,6 +6,7 @@
 %define	pdir	Set
 %define	pnam	Crontab
 Summary:	Set::Crontab - Expand crontab(5)-style integer lists
+Summary(pl):	Set::Crontab - rozszerzanie list liczb w notacji crontab(5)
 Name:		perl-Set-Crontab
 Version:	1.00
 Release:	1
@@ -19,8 +20,12 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set::Crontab parses crontab-style lists of integers and defines
-some utility functions to make it easier to deal with them.
+Set::Crontab parses crontab-style lists of integers and defines some
+utility functions to make it easier to deal with them.
+
+%description -l pl
+Set::Crontab przetwarza listy liczb ca³kowitych w notacji crontaba i
+definiuje kilka u¿ytecznych funkcji u³atwiaj±cych obs³ugê ich.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
