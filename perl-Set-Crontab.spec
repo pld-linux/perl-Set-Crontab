@@ -9,7 +9,7 @@ Summary:	Set::Crontab - expand crontab(5)-style integer lists
 Summary(pl.UTF-8):	Set::Crontab - rozszerzanie list liczb w notacji crontab(5)
 Name:		perl-Set-Crontab
 Version:	1.00
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
